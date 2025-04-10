@@ -1,0 +1,17 @@
+{
+  "name": "node_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Taiwo Oladosu",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  }
+}
